@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#target-color {
+    background-color: #000;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#timer,
+#score {
+    font-size: 16px;
+    margin: 10px;
+}
+
+#start-button,
+#restart-button {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
